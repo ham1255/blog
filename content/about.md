@@ -1,11 +1,10 @@
-+++
-title = "About me"
-+++
+My name is Mohammed Alteneiji
 
-my name is mohammed or known as `Ham1255`, `xrambad` and `alaajel9000`
 
+# Skills
 [![My Skills](https://skillicons.dev/icons?i=java,c,python,docker,linux,arch,postgres,valkey,prometheus&perline=10)]()
 
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ham1255&theme=github_dark)
 
+
+~~eh i am not sure why its called skills~~
