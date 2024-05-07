@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2024-05-03T02:00:00+04:00
+date = 2024-05-08T02:00:00+04:00
 title = "Disaster home network to a Better one"
 tags = ["OpenWrt", "Linux"]
 categories = ["Networking", "Open-source"]
