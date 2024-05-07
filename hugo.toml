@@ -1,0 +1,64 @@
+baseURL = 'https://ham1255.blog.glomc.net/'
+languageCode = 'en-us'
+title = 'Mohammed Alteneiji'
+theme = 'hugo-coder'
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Mohammed Alteneiji"
+  info = ""
+  description = "Personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "https://avatars.githubusercontent.com/u/34905970?v=4"
+ #faviconSVG = "/img/favicon.svg"
+ # favicon_32 = "/img/favicon-32x32.png"
+ # favicon_16 = "/img/favicon-16x16.png"
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/ham1255/"
+
+[[params.social]]
+  name = "Twitter/X"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/alaajel9000/"
+
+  # Menu links
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url  = "/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 2
+  url  = "posts/"
+
+
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "about/"
