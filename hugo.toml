@@ -1,6 +1,6 @@
 baseURL = 'https://ham1255.blog.glomc.net/'
 languageCode = 'en-us'
-title = 'Mohammed Alteneiji'
+title = 'Mohammed Alteneiji blog'
 theme = 'hugo-coder'
 
 languagecode = "en"
@@ -46,6 +46,12 @@ style = "github-dark"
   weight = 3
   url = "https://twitter.com/alaajel9000/"
 
+[[params.social]]
+  name = "Rss"
+  icon = "fa-solid fa-rss fa-2x"
+  weight = 3
+  url = "/feed.xml"
+
   # Menu links
 [[menu.main]]
   name = "Home"
@@ -73,4 +79,15 @@ style = "github-dark"
   weight = 5
   url = "about/"
 
-  
+
+[permalinks]
+  [permalinks.page]
+    '/posts' = '/:year/:month/:day/:/:slug/'
+
+[outputFormats]
+    [outputFormats.RSS]
+        mediaType = "application/rss+xml"
+        baseName = "feed"
+
+[outputs]
+  home = ["HTML", "RSS"]
